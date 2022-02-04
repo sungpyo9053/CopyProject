@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		935AF2BD27AD3E930010FD7B /* Hong.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2BC27AD3E930010FD7B /* Hong.storyboard */; };
+		935AF2BF27AD3EA90010FD7B /* HongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2BE27AD3EA90010FD7B /* HongViewController.swift */; };
+		935AF2C127AD3F7F0010FD7B /* Kang.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2C027AD3F7F0010FD7B /* Kang.storyboard */; };
+		935AF2C327AD3F880010FD7B /* KangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2C227AD3F880010FD7B /* KangViewController.swift */; };
+		935AF2C527AD3FE50010FD7B /* KimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2C427AD3FE50010FD7B /* KimViewController.swift */; };
+		935AF2C727AD3FFD0010FD7B /* Kim.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2C627AD3FFD0010FD7B /* Kim.storyboard */; };
+		935AF2C927AD42630010FD7B /* Nam.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2C827AD42630010FD7B /* Nam.storyboard */; };
+		935AF2CB27AD426D0010FD7B /* NamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2CA27AD426D0010FD7B /* NamViewController.swift */; };
 		E488A1BA27A78F7500B35FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E488A1B927A78F7500B35FFA /* AppDelegate.swift */; };
 		E488A1BC27A78F7500B35FFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E488A1BB27A78F7500B35FFA /* SceneDelegate.swift */; };
-		E488A1BE27A78F7500B35FFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E488A1BD27A78F7500B35FFA /* ViewController.swift */; };
+		E488A1BE27A78F7500B35FFA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E488A1BD27A78F7500B35FFA /* TabBarController.swift */; };
 		E488A1C127A78F7500B35FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E488A1BF27A78F7500B35FFA /* Main.storyboard */; };
 		E488A1C327A78F7600B35FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E488A1C227A78F7600B35FFA /* Assets.xcassets */; };
 		E488A1C627A78F7600B35FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E488A1C427A78F7600B35FFA /* LaunchScreen.storyboard */; };
@@ -35,10 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		935AF2BC27AD3E930010FD7B /* Hong.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hong.storyboard; sourceTree = "<group>"; };
+		935AF2BE27AD3EA90010FD7B /* HongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HongViewController.swift; sourceTree = "<group>"; };
+		935AF2C027AD3F7F0010FD7B /* Kang.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kang.storyboard; sourceTree = "<group>"; };
+		935AF2C227AD3F880010FD7B /* KangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KangViewController.swift; sourceTree = "<group>"; };
+		935AF2C427AD3FE50010FD7B /* KimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KimViewController.swift; sourceTree = "<group>"; };
+		935AF2C627AD3FFD0010FD7B /* Kim.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kim.storyboard; sourceTree = "<group>"; };
+		935AF2C827AD42630010FD7B /* Nam.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Nam.storyboard; sourceTree = "<group>"; };
+		935AF2CA27AD426D0010FD7B /* NamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamViewController.swift; sourceTree = "<group>"; };
 		E488A1B627A78F7500B35FFA /* copyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = copyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E488A1B927A78F7500B35FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E488A1BB27A78F7500B35FFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E488A1BD27A78F7500B35FFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E488A1BD27A78F7500B35FFA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E488A1C027A78F7500B35FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E488A1C227A78F7600B35FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E488A1C527A78F7600B35FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +92,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		935AF2B127AD3D170010FD7B /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				E488A1C727A78F7600B35FFA /* Info.plist */,
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		935AF2B227AD3D290010FD7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E488A1C427A78F7600B35FFA /* LaunchScreen.storyboard */,
+				E488A1C227A78F7600B35FFA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		935AF2B327AD3D340010FD7B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				935AF2BB27AD3E850010FD7B /* Nam */,
+				935AF2BA27AD3E810010FD7B /* Kim */,
+				935AF2B927AD3E7C0010FD7B /* Kang */,
+				935AF2B827AD3E640010FD7B /* Hong */,
+				935AF2B727AD3E1B0010FD7B /* Main */,
+				935AF2B427AD3D750010FD7B /* Entry */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		935AF2B427AD3D750010FD7B /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				E488A1B927A78F7500B35FFA /* AppDelegate.swift */,
+				E488A1BB27A78F7500B35FFA /* SceneDelegate.swift */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		935AF2B527AD3D8B0010FD7B /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				E488A1D227A78F7700B35FFA /* Info.plist */,
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		935AF2B627AD3D940010FD7B /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				E488A1DD27A78F7700B35FFA /* Info.plist */,
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		935AF2B727AD3E1B0010FD7B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E488A1BD27A78F7500B35FFA /* TabBarController.swift */,
+				E488A1BF27A78F7500B35FFA /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		935AF2B827AD3E640010FD7B /* Hong */ = {
+			isa = PBXGroup;
+			children = (
+				935AF2BC27AD3E930010FD7B /* Hong.storyboard */,
+				935AF2BE27AD3EA90010FD7B /* HongViewController.swift */,
+			);
+			path = Hong;
+			sourceTree = "<group>";
+		};
+		935AF2B927AD3E7C0010FD7B /* Kang */ = {
+			isa = PBXGroup;
+			children = (
+				935AF2C027AD3F7F0010FD7B /* Kang.storyboard */,
+				935AF2C227AD3F880010FD7B /* KangViewController.swift */,
+			);
+			path = Kang;
+			sourceTree = "<group>";
+		};
+		935AF2BA27AD3E810010FD7B /* Kim */ = {
+			isa = PBXGroup;
+			children = (
+				935AF2C427AD3FE50010FD7B /* KimViewController.swift */,
+				935AF2C627AD3FFD0010FD7B /* Kim.storyboard */,
+			);
+			path = Kim;
+			sourceTree = "<group>";
+		};
+		935AF2BB27AD3E850010FD7B /* Nam */ = {
+			isa = PBXGroup;
+			children = (
+				935AF2C827AD42630010FD7B /* Nam.storyboard */,
+				935AF2CA27AD426D0010FD7B /* NamViewController.swift */,
+			);
+			path = Nam;
+			sourceTree = "<group>";
+		};
 		E488A1AD27A78F7500B35FFA = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +215,9 @@
 		E488A1B827A78F7500B35FFA /* copyProject */ = {
 			isa = PBXGroup;
 			children = (
-				E488A1B927A78F7500B35FFA /* AppDelegate.swift */,
-				E488A1BB27A78F7500B35FFA /* SceneDelegate.swift */,
-				E488A1BD27A78F7500B35FFA /* ViewController.swift */,
-				E488A1BF27A78F7500B35FFA /* Main.storyboard */,
-				E488A1C227A78F7600B35FFA /* Assets.xcassets */,
-				E488A1C427A78F7600B35FFA /* LaunchScreen.storyboard */,
-				E488A1C727A78F7600B35FFA /* Info.plist */,
+				935AF2B327AD3D340010FD7B /* Sources */,
+				935AF2B227AD3D290010FD7B /* Resources */,
+				935AF2B127AD3D170010FD7B /* Supported Files */,
 			);
 			path = copyProject;
 			sourceTree = "<group>";
@@ -113,8 +225,8 @@
 		E488A1CF27A78F7700B35FFA /* copyProjectTests */ = {
 			isa = PBXGroup;
 			children = (
+				935AF2B527AD3D8B0010FD7B /* Supported Files */,
 				E488A1D027A78F7700B35FFA /* copyProjectTests.swift */,
-				E488A1D227A78F7700B35FFA /* Info.plist */,
 			);
 			path = copyProjectTests;
 			sourceTree = "<group>";
@@ -122,8 +234,8 @@
 		E488A1DA27A78F7700B35FFA /* copyProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
+				935AF2B627AD3D940010FD7B /* Supported Files */,
 				E488A1DB27A78F7700B35FFA /* copyProjectUITests.swift */,
-				E488A1DD27A78F7700B35FFA /* Info.plist */,
 			);
 			path = copyProjectUITests;
 			sourceTree = "<group>";
@@ -233,7 +345,11 @@
 			files = (
 				E488A1C627A78F7600B35FFA /* LaunchScreen.storyboard in Resources */,
 				E488A1C327A78F7600B35FFA /* Assets.xcassets in Resources */,
+				935AF2C727AD3FFD0010FD7B /* Kim.storyboard in Resources */,
+				935AF2C927AD42630010FD7B /* Nam.storyboard in Resources */,
+				935AF2BD27AD3E930010FD7B /* Hong.storyboard in Resources */,
 				E488A1C127A78F7500B35FFA /* Main.storyboard in Resources */,
+				935AF2C127AD3F7F0010FD7B /* Kang.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +374,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E488A1BE27A78F7500B35FFA /* ViewController.swift in Sources */,
+				935AF2C527AD3FE50010FD7B /* KimViewController.swift in Sources */,
+				935AF2BF27AD3EA90010FD7B /* HongViewController.swift in Sources */,
+				E488A1BE27A78F7500B35FFA /* TabBarController.swift in Sources */,
+				935AF2C327AD3F880010FD7B /* KangViewController.swift in Sources */,
 				E488A1BA27A78F7500B35FFA /* AppDelegate.swift in Sources */,
 				E488A1BC27A78F7500B35FFA /* SceneDelegate.swift in Sources */,
+				935AF2CB27AD426D0010FD7B /* NamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +557,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = copyProject/Info.plist;
+				INFOPLIST_FILE = "copyProject/Supported Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +575,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = copyProject/Info.plist;
+				INFOPLIST_FILE = "copyProject/Supported Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,7 +593,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = copyProjectTests/Info.plist;
+				INFOPLIST_FILE = "copyProjectTests/Supported Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -494,7 +614,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = copyProjectTests/Info.plist;
+				INFOPLIST_FILE = "copyProjectTests/Supported Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -514,7 +634,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = copyProjectUITests/Info.plist;
+				INFOPLIST_FILE = "copyProjectUITests/Supported Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -533,7 +653,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = copyProjectUITests/Info.plist;
+				INFOPLIST_FILE = "copyProjectUITests/Supported Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
