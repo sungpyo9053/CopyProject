@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		935AF2BD27AD3E930010FD7B /* Hong.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2BC27AD3E930010FD7B /* Hong.storyboard */; };
-		935AF2BF27AD3EA90010FD7B /* HongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2BE27AD3EA90010FD7B /* HongViewController.swift */; };
 		935AF2C127AD3F7F0010FD7B /* Kang.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2C027AD3F7F0010FD7B /* Kang.storyboard */; };
 		935AF2C327AD3F880010FD7B /* KangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2C227AD3F880010FD7B /* KangViewController.swift */; };
 		935AF2C527AD3FE50010FD7B /* KimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2C427AD3FE50010FD7B /* KimViewController.swift */; };
 		935AF2C727AD3FFD0010FD7B /* Kim.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2C627AD3FFD0010FD7B /* Kim.storyboard */; };
 		935AF2C927AD42630010FD7B /* Nam.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2C827AD42630010FD7B /* Nam.storyboard */; };
 		935AF2CB27AD426D0010FD7B /* NamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2CA27AD426D0010FD7B /* NamViewController.swift */; };
+		E475203327B37571005C034D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E475203227B37571005C034D /* LoginViewController.swift */; };
+		E475203527B38A93005C034D /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E475203427B38A93005C034D /* EnterEmailViewController.swift */; };
+		E475203727B39620005C034D /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E475203627B39620005C034D /* SuccessViewController.swift */; };
 		E488A1BA27A78F7500B35FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E488A1B927A78F7500B35FFA /* AppDelegate.swift */; };
 		E488A1BC27A78F7500B35FFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E488A1BB27A78F7500B35FFA /* SceneDelegate.swift */; };
 		E488A1BE27A78F7500B35FFA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E488A1BD27A78F7500B35FFA /* TabBarController.swift */; };
@@ -44,13 +46,15 @@
 
 /* Begin PBXFileReference section */
 		935AF2BC27AD3E930010FD7B /* Hong.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hong.storyboard; sourceTree = "<group>"; };
-		935AF2BE27AD3EA90010FD7B /* HongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HongViewController.swift; sourceTree = "<group>"; };
 		935AF2C027AD3F7F0010FD7B /* Kang.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kang.storyboard; sourceTree = "<group>"; };
 		935AF2C227AD3F880010FD7B /* KangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KangViewController.swift; sourceTree = "<group>"; };
 		935AF2C427AD3FE50010FD7B /* KimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KimViewController.swift; sourceTree = "<group>"; };
 		935AF2C627AD3FFD0010FD7B /* Kim.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kim.storyboard; sourceTree = "<group>"; };
 		935AF2C827AD42630010FD7B /* Nam.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Nam.storyboard; sourceTree = "<group>"; };
 		935AF2CA27AD426D0010FD7B /* NamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamViewController.swift; sourceTree = "<group>"; };
+		E475203227B37571005C034D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E475203427B38A93005C034D /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
+		E475203627B39620005C034D /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		E488A1B627A78F7500B35FFA /* copyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = copyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E488A1B927A78F7500B35FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E488A1BB27A78F7500B35FFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,7 +164,9 @@
 			isa = PBXGroup;
 			children = (
 				935AF2BC27AD3E930010FD7B /* Hong.storyboard */,
-				935AF2BE27AD3EA90010FD7B /* HongViewController.swift */,
+				E475203227B37571005C034D /* LoginViewController.swift */,
+				E475203427B38A93005C034D /* EnterEmailViewController.swift */,
+				E475203627B39620005C034D /* SuccessViewController.swift */,
 			);
 			path = Hong;
 			sourceTree = "<group>";
@@ -374,12 +380,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E475203327B37571005C034D /* LoginViewController.swift in Sources */,
+				E475203727B39620005C034D /* SuccessViewController.swift in Sources */,
 				935AF2C527AD3FE50010FD7B /* KimViewController.swift in Sources */,
-				935AF2BF27AD3EA90010FD7B /* HongViewController.swift in Sources */,
 				E488A1BE27A78F7500B35FFA /* TabBarController.swift in Sources */,
 				935AF2C327AD3F880010FD7B /* KangViewController.swift in Sources */,
 				E488A1BA27A78F7500B35FFA /* AppDelegate.swift in Sources */,
 				E488A1BC27A78F7500B35FFA /* SceneDelegate.swift in Sources */,
+				E475203527B38A93005C034D /* EnterEmailViewController.swift in Sources */,
 				935AF2CB27AD426D0010FD7B /* NamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
