@@ -27,6 +27,8 @@ class LonginViewController : UIViewController
         
         super.viewWillAppear(animated)
         navigationController?.navigationBar.isHidden = false
+        
+        
     }
     
  

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SuccessViewController : UIViewController
 {
@@ -17,11 +18,30 @@ class SuccessViewController : UIViewController
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        
         navigationController?.navigationBar.isHidden = true
+        
+        let email = Auth.auth().currentUser?.email ??  "고객"
+        
+        welcomLabel.text = """
+        환영합니다
+        \(email)님
+        """
     }
     @IBAction func logoutTapped(_ sender: Any) {
+        
+        let authFrieBase = Auth.auth()
+        
+        do {
+            try authFrieBase.signOut()
+            self.navigationController?.popToRootViewController(animated: true)
+        } catch let signOutError  as NSError{
+            
+            print("Error Message : \(signOutError.localizedDescription)")
+            
+        }
     
-        self.navigationController?.popToRootViewController(animated: true)
+        
         
     }
 }

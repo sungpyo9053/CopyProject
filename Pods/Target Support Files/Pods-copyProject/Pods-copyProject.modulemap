@@ -1,0 +1,6 @@
+framework module Pods_copyProject {
+  umbrella header "Pods-copyProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

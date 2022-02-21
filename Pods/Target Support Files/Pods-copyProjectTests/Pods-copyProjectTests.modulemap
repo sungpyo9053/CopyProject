@@ -1,0 +1,6 @@
+framework module Pods_copyProjectTests {
+  umbrella header "Pods-copyProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
