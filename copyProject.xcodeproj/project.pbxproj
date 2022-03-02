@@ -7,21 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		600F7C6B9F207ADC09787089 /* Pods_copyProject_copyProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEC9A10EA94BE1A710B40EB /* Pods_copyProject_copyProjectUITests.framework */; };
-		6122246627B5334200DFE469 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6122246327B5334200DFE469 /* SuccessViewController.swift */; };
-		6122246727B5334200DFE469 /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6122246427B5334200DFE469 /* EnterEmailViewController.swift */; };
-		6122246827B5334200DFE469 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6122246527B5334200DFE469 /* LoginViewController.swift */; };
+		52FA97F027C926B5007EF4FE /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FA97E827C926B5007EF4FE /* ProfileCell.xib */; };
+		52FA97F127C926B5007EF4FE /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FA97E927C926B5007EF4FE /* TableViewCell.xib */; };
+		52FA97F227C926B5007EF4FE /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA97EA27C926B5007EF4FE /* MenuCell.swift */; };
+		52FA97F327C926B5007EF4FE /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FA97EB27C926B5007EF4FE /* MenuCell.xib */; };
+		52FA97F427C926B5007EF4FE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA97EC27C926B5007EF4FE /* TableViewCell.swift */; };
+		52FA97F527C926B5007EF4FE /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA97ED27C926B5007EF4FE /* ProfileCell.swift */; };
+		52FA97F627C926B5007EF4FE /* NamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA97EE27C926B5007EF4FE /* NamViewController.swift */; };
+		52FA97F727C926B5007EF4FE /* Nam.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FA97EF27C926B5007EF4FE /* Nam.storyboard */; };
 		61288E8727B402CB0065F377 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61288E8627B402CB0065F377 /* DataModel.swift */; };
 		61288E8A27B403A00065F377 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 61288E8927B403A00065F377 /* SnapKit */; };
-		65825795B0916E601C6102D7 /* Pods_copyProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D202A0208A483694BD5956D5 /* Pods_copyProjectTests.framework */; };
-		935AF2BD27AD3E930010FD7B /* Hong.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2BC27AD3E930010FD7B /* Hong.storyboard */; };
 		935AF2C127AD3F7F0010FD7B /* Kang.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2C027AD3F7F0010FD7B /* Kang.storyboard */; };
 		935AF2C327AD3F880010FD7B /* KangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2C227AD3F880010FD7B /* KangViewController.swift */; };
 		935AF2C527AD3FE50010FD7B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2C427AD3FE50010FD7B /* SearchViewController.swift */; };
 		935AF2C727AD3FFD0010FD7B /* Kim.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2C627AD3FFD0010FD7B /* Kim.storyboard */; };
-		935AF2C927AD42630010FD7B /* Nam.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2C827AD42630010FD7B /* Nam.storyboard */; };
-		935AF2CB27AD426D0010FD7B /* NamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2CA27AD426D0010FD7B /* NamViewController.swift */; };
-		AE39887FBB69690DE96EEAD8 /* Pods_copyProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6220098196C42AE9622A3759 /* Pods_copyProject.framework */; };
 		E475203327B37571005C034D /* (null) in Sources */ = {isa = PBXBuildFile; };
 		E475203527B38A93005C034D /* (null) in Sources */ = {isa = PBXBuildFile; };
 		E475203727B39620005C034D /* (null) in Sources */ = {isa = PBXBuildFile; };
@@ -56,23 +55,23 @@
 /* Begin PBXFileReference section */
 		25B784A619F57FE87B7EED3F /* Pods-copyProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-copyProjectTests.release.xcconfig"; path = "Target Support Files/Pods-copyProjectTests/Pods-copyProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		277D9676488673E43F868105 /* Pods-copyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-copyProject.release.xcconfig"; path = "Target Support Files/Pods-copyProject/Pods-copyProject.release.xcconfig"; sourceTree = "<group>"; };
+		52FA97E827C926B5007EF4FE /* ProfileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
+		52FA97E927C926B5007EF4FE /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		52FA97EA27C926B5007EF4FE /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		52FA97EB27C926B5007EF4FE /* MenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		52FA97EC27C926B5007EF4FE /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		52FA97ED27C926B5007EF4FE /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		52FA97EE27C926B5007EF4FE /* NamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamViewController.swift; sourceTree = "<group>"; };
+		52FA97EF27C926B5007EF4FE /* Nam.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Nam.storyboard; sourceTree = "<group>"; };
 		5A6E388931CC0A98163B8CF4 /* Pods-copyProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-copyProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-copyProjectTests/Pods-copyProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6122246327B5334200DFE469 /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
-		6122246427B5334200DFE469 /* EnterEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
-		6122246527B5334200DFE469 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		61288E8627B402CB0065F377 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		6220098196C42AE9622A3759 /* Pods_copyProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_copyProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E56F33DDC9F3A7B24C6D018 /* Pods-copyProject-copyProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-copyProject-copyProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-copyProject-copyProjectUITests/Pods-copyProject-copyProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		935AF2BC27AD3E930010FD7B /* Hong.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hong.storyboard; sourceTree = "<group>"; };
 		935AF2C027AD3F7F0010FD7B /* Kang.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kang.storyboard; sourceTree = "<group>"; };
 		935AF2C227AD3F880010FD7B /* KangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KangViewController.swift; sourceTree = "<group>"; };
 		935AF2C427AD3FE50010FD7B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		935AF2C627AD3FFD0010FD7B /* Kim.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kim.storyboard; sourceTree = "<group>"; };
-		935AF2C827AD42630010FD7B /* Nam.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Nam.storyboard; sourceTree = "<group>"; };
-		935AF2CA27AD426D0010FD7B /* NamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamViewController.swift; sourceTree = "<group>"; };
 		97FE399C153120CF5E768C9C /* Pods-copyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-copyProject.debug.xcconfig"; path = "Target Support Files/Pods-copyProject/Pods-copyProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C541A8242682B273E12B4EA4 /* Pods-copyProject-copyProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-copyProject-copyProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-copyProject-copyProjectUITests/Pods-copyProject-copyProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D202A0208A483694BD5956D5 /* Pods_copyProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_copyProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E475203827C22E4A005C034D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E475203A27C24737005C034D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E488A1B627A78F7500B35FFA /* copyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = copyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,7 +88,6 @@
 		E488A1D727A78F7700B35FFA /* copyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = copyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E488A1DB27A78F7700B35FFA /* copyProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = copyProjectUITests.swift; sourceTree = "<group>"; };
 		E488A1DD27A78F7700B35FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDEC9A10EA94BE1A710B40EB /* Pods_copyProject_copyProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_copyProject_copyProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +96,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				61288E8A27B403A00065F377 /* SnapKit in Frameworks */,
-				AE39887FBB69690DE96EEAD8 /* Pods_copyProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +103,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65825795B0916E601C6102D7 /* Pods_copyProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +110,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600F7C6B9F207ADC09787089 /* Pods_copyProject_copyProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +141,6 @@
 				935AF2BB27AD3E850010FD7B /* Nam */,
 				935AF2BA27AD3E810010FD7B /* Kim */,
 				935AF2B927AD3E7C0010FD7B /* Kang */,
-				935AF2B827AD3E640010FD7B /* Hong */,
 				935AF2B727AD3E1B0010FD7B /* Main */,
 				935AF2B427AD3D750010FD7B /* Entry */,
 			);
@@ -187,17 +181,6 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		935AF2B827AD3E640010FD7B /* Hong */ = {
-			isa = PBXGroup;
-			children = (
-				6122246427B5334200DFE469 /* EnterEmailViewController.swift */,
-				6122246527B5334200DFE469 /* LoginViewController.swift */,
-				6122246327B5334200DFE469 /* SuccessViewController.swift */,
-				935AF2BC27AD3E930010FD7B /* Hong.storyboard */,
-			);
-			path = Hong;
-			sourceTree = "<group>";
-		};
 		935AF2B927AD3E7C0010FD7B /* Kang */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,8 +203,14 @@
 		935AF2BB27AD3E850010FD7B /* Nam */ = {
 			isa = PBXGroup;
 			children = (
-				935AF2C827AD42630010FD7B /* Nam.storyboard */,
-				935AF2CA27AD426D0010FD7B /* NamViewController.swift */,
+				52FA97EA27C926B5007EF4FE /* MenuCell.swift */,
+				52FA97EB27C926B5007EF4FE /* MenuCell.xib */,
+				52FA97EF27C926B5007EF4FE /* Nam.storyboard */,
+				52FA97EE27C926B5007EF4FE /* NamViewController.swift */,
+				52FA97ED27C926B5007EF4FE /* ProfileCell.swift */,
+				52FA97E827C926B5007EF4FE /* ProfileCell.xib */,
+				52FA97EC27C926B5007EF4FE /* TableViewCell.swift */,
+				52FA97E927C926B5007EF4FE /* TableViewCell.xib */,
 			);
 			path = Nam;
 			sourceTree = "<group>";
@@ -229,9 +218,6 @@
 		969886A720A573EE3DAB0B27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6220098196C42AE9622A3759 /* Pods_copyProject.framework */,
-				FDEC9A10EA94BE1A710B40EB /* Pods_copyProject_copyProjectUITests.framework */,
-				D202A0208A483694BD5956D5 /* Pods_copyProjectTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -414,11 +400,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E488A1C627A78F7600B35FFA /* LaunchScreen.storyboard in Resources */,
+				52FA97F027C926B5007EF4FE /* ProfileCell.xib in Resources */,
+				52FA97F327C926B5007EF4FE /* MenuCell.xib in Resources */,
+				52FA97F727C926B5007EF4FE /* Nam.storyboard in Resources */,
 				E475203927C22E4A005C034D /* GoogleService-Info.plist in Resources */,
 				E488A1C327A78F7600B35FFA /* Assets.xcassets in Resources */,
+				52FA97F127C926B5007EF4FE /* TableViewCell.xib in Resources */,
 				935AF2C727AD3FFD0010FD7B /* Kim.storyboard in Resources */,
-				935AF2C927AD42630010FD7B /* Nam.storyboard in Resources */,
-				935AF2BD27AD3E930010FD7B /* Hong.storyboard in Resources */,
 				E488A1C127A78F7500B35FFA /* Main.storyboard in Resources */,
 				935AF2C127AD3F7F0010FD7B /* Kang.storyboard in Resources */,
 			);
@@ -548,19 +536,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FA97F527C926B5007EF4FE /* ProfileCell.swift in Sources */,
 				935AF2C527AD3FE50010FD7B /* SearchViewController.swift in Sources */,
 				E475203327B37571005C034D /* (null) in Sources */,
 				E475203727B39620005C034D /* (null) in Sources */,
-				6122246627B5334200DFE469 /* SuccessViewController.swift in Sources */,
 				E488A1BE27A78F7500B35FFA /* TabBarController.swift in Sources */,
 				935AF2C327AD3F880010FD7B /* KangViewController.swift in Sources */,
-				6122246727B5334200DFE469 /* EnterEmailViewController.swift in Sources */,
+				52FA97F227C926B5007EF4FE /* MenuCell.swift in Sources */,
 				E488A1BA27A78F7500B35FFA /* AppDelegate.swift in Sources */,
 				E488A1BC27A78F7500B35FFA /* SceneDelegate.swift in Sources */,
 				E475203527B38A93005C034D /* (null) in Sources */,
-				935AF2CB27AD426D0010FD7B /* NamViewController.swift in Sources */,
-				6122246827B5334200DFE469 /* LoginViewController.swift in Sources */,
+				52FA97F427C926B5007EF4FE /* TableViewCell.swift in Sources */,
 				61288E8727B402CB0065F377 /* DataModel.swift in Sources */,
+				52FA97F627C926B5007EF4FE /* NamViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -738,6 +726,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKP4VA87Y9;
 				INFOPLIST_FILE = "copyProject/Supported Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -757,6 +746,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKP4VA87Y9;
 				INFOPLIST_FILE = "copyProject/Supported Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
