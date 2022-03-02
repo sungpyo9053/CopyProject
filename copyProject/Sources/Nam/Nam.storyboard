@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -25,7 +26,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="khN-FW-IRY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1090" y="102"/>
+            <point key="canvasLocation" x="-1520" y="123"/>
         </scene>
         <!--Nam View Controller-->
         <scene sceneID="s0d-6b-0kx">
@@ -34,19 +35,38 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="xdB-5c-epa">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="sectionIndexBackgroundColor" name="AccentColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xdB-5c-epa" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="UIf-lq-ZYP"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="xdB-5c-epa" secondAttribute="trailing" id="fWG-De-KW7"/>
+                            <constraint firstItem="xdB-5c-epa" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="lUp-54-wPX"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="xdB-5c-epa" secondAttribute="bottom" id="xaK-U9-UJR"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4YA-sN-XIu"/>
+                    <connections>
+                        <outlet property="mainTableView" destination="xdB-5c-epa" id="n7w-zb-pN4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-184" y="102"/>
+            <point key="canvasLocation" x="-807" y="123"/>
         </scene>
     </scenes>
     <resources>
         <image name="pencil.circle" catalog="system" width="128" height="121"/>
         <image name="pencil.circle.fill" catalog="system" width="128" height="121"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
