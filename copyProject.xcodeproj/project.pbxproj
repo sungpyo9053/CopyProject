@@ -17,10 +17,22 @@
 		52FA97F727C926B5007EF4FE /* Nam.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FA97EF27C926B5007EF4FE /* Nam.storyboard */; };
 		61288E8727B402CB0065F377 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61288E8627B402CB0065F377 /* DataModel.swift */; };
 		61288E8A27B403A00065F377 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 61288E8927B403A00065F377 /* SnapKit */; };
+		9341713D27BE4A65004614EF /* NearMeHotKeywordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9341713C27BE4A65004614EF /* NearMeHotKeywordsView.swift */; };
 		935AF2C127AD3F7F0010FD7B /* Kang.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2C027AD3F7F0010FD7B /* Kang.storyboard */; };
-		935AF2C327AD3F880010FD7B /* KangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2C227AD3F880010FD7B /* KangViewController.swift */; };
+		935AF2C327AD3F880010FD7B /* NearMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2C227AD3F880010FD7B /* NearMeViewController.swift */; };
 		935AF2C527AD3FE50010FD7B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AF2C427AD3FE50010FD7B /* SearchViewController.swift */; };
 		935AF2C727AD3FFD0010FD7B /* Kim.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AF2C627AD3FFD0010FD7B /* Kim.storyboard */; };
+		9374777F27D0C99D00B9FEFD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374777B27D0C99D00B9FEFD /* LoginViewController.swift */; };
+		9374778027D0C99D00B9FEFD /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374777C27D0C99D00B9FEFD /* SuccessViewController.swift */; };
+		9374778127D0C99D00B9FEFD /* Hong.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9374777D27D0C99D00B9FEFD /* Hong.storyboard */; };
+		9374778227D0C99D00B9FEFD /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374777E27D0C99D00B9FEFD /* EnterEmailViewController.swift */; };
+		9375B28D27C760CC00A5CBEF /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 9375B28C27C760CC00A5CBEF /* Then */; };
+		9375B28F27C76ED500A5CBEF /* HotKeywordCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375B28E27C76ED500A5CBEF /* HotKeywordCollectionCell.swift */; };
+		9375B29127C7713400A5CBEF /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375B29027C7713400A5CBEF /* RoundedButton.swift */; };
+		9375B29327C7716100A5CBEF /* HorizontalLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375B29227C7716100A5CBEF /* HorizontalLineView.swift */; };
+		9375B29527C7773B00A5CBEF /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375B29427C7773B00A5CBEF /* CategoriesView.swift */; };
+		9375B29927C777B300A5CBEF /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375B29827C777B300A5CBEF /* CategoryView.swift */; };
+		9375B29B27C777DF00A5CBEF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375B29A27C777DF00A5CBEF /* Category.swift */; };
 		E475203327B37571005C034D /* (null) in Sources */ = {isa = PBXBuildFile; };
 		E475203527B38A93005C034D /* (null) in Sources */ = {isa = PBXBuildFile; };
 		E475203727B39620005C034D /* (null) in Sources */ = {isa = PBXBuildFile; };
@@ -66,10 +78,21 @@
 		5A6E388931CC0A98163B8CF4 /* Pods-copyProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-copyProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-copyProjectTests/Pods-copyProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		61288E8627B402CB0065F377 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		6E56F33DDC9F3A7B24C6D018 /* Pods-copyProject-copyProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-copyProject-copyProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-copyProject-copyProjectUITests/Pods-copyProject-copyProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9341713C27BE4A65004614EF /* NearMeHotKeywordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeHotKeywordsView.swift; sourceTree = "<group>"; };
 		935AF2C027AD3F7F0010FD7B /* Kang.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kang.storyboard; sourceTree = "<group>"; };
-		935AF2C227AD3F880010FD7B /* KangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KangViewController.swift; sourceTree = "<group>"; };
+		935AF2C227AD3F880010FD7B /* NearMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeViewController.swift; sourceTree = "<group>"; };
 		935AF2C427AD3FE50010FD7B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		935AF2C627AD3FFD0010FD7B /* Kim.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kim.storyboard; sourceTree = "<group>"; };
+		9374777B27D0C99D00B9FEFD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9374777C27D0C99D00B9FEFD /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		9374777D27D0C99D00B9FEFD /* Hong.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hong.storyboard; sourceTree = "<group>"; };
+		9374777E27D0C99D00B9FEFD /* EnterEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
+		9375B28E27C76ED500A5CBEF /* HotKeywordCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeywordCollectionCell.swift; sourceTree = "<group>"; };
+		9375B29027C7713400A5CBEF /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		9375B29227C7716100A5CBEF /* HorizontalLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalLineView.swift; sourceTree = "<group>"; };
+		9375B29427C7773B00A5CBEF /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		9375B29827C777B300A5CBEF /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		9375B29A27C777DF00A5CBEF /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		97FE399C153120CF5E768C9C /* Pods-copyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-copyProject.debug.xcconfig"; path = "Target Support Files/Pods-copyProject/Pods-copyProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C541A8242682B273E12B4EA4 /* Pods-copyProject-copyProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-copyProject-copyProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-copyProject-copyProjectUITests/Pods-copyProject-copyProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E475203827C22E4A005C034D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -96,6 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61288E8A27B403A00065F377 /* SnapKit in Frameworks */,
+				9375B28D27C760CC00A5CBEF /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +165,7 @@
 				935AF2BB27AD3E850010FD7B /* Nam */,
 				935AF2BA27AD3E810010FD7B /* Kim */,
 				935AF2B927AD3E7C0010FD7B /* Kang */,
+				9374777A27D0C89100B9FEFD /* Hong */,
 				935AF2B727AD3E1B0010FD7B /* Main */,
 				935AF2B427AD3D750010FD7B /* Entry */,
 			);
@@ -184,8 +209,11 @@
 		935AF2B927AD3E7C0010FD7B /* Kang */ = {
 			isa = PBXGroup;
 			children = (
+				9375B29C27C77BAD00A5CBEF /* Common */,
+				9375B29727C7778300A5CBEF /* Categories */,
+				9375B29627C7777100A5CBEF /* HotKeywords */,
 				935AF2C027AD3F7F0010FD7B /* Kang.storyboard */,
-				935AF2C227AD3F880010FD7B /* KangViewController.swift */,
+				935AF2C227AD3F880010FD7B /* NearMeViewController.swift */,
 			);
 			path = Kang;
 			sourceTree = "<group>";
@@ -213,6 +241,45 @@
 				52FA97E927C926B5007EF4FE /* TableViewCell.xib */,
 			);
 			path = Nam;
+			sourceTree = "<group>";
+		};
+		9374777A27D0C89100B9FEFD /* Hong */ = {
+			isa = PBXGroup;
+			children = (
+				9374777E27D0C99D00B9FEFD /* EnterEmailViewController.swift */,
+				9374777D27D0C99D00B9FEFD /* Hong.storyboard */,
+				9374777B27D0C99D00B9FEFD /* LoginViewController.swift */,
+				9374777C27D0C99D00B9FEFD /* SuccessViewController.swift */,
+			);
+			path = Hong;
+			sourceTree = "<group>";
+		};
+		9375B29627C7777100A5CBEF /* HotKeywords */ = {
+			isa = PBXGroup;
+			children = (
+				9341713C27BE4A65004614EF /* NearMeHotKeywordsView.swift */,
+				9375B28E27C76ED500A5CBEF /* HotKeywordCollectionCell.swift */,
+				9375B29027C7713400A5CBEF /* RoundedButton.swift */,
+			);
+			path = HotKeywords;
+			sourceTree = "<group>";
+		};
+		9375B29727C7778300A5CBEF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9375B29427C7773B00A5CBEF /* CategoriesView.swift */,
+				9375B29827C777B300A5CBEF /* CategoryView.swift */,
+				9375B29A27C777DF00A5CBEF /* Category.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		9375B29C27C77BAD00A5CBEF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9375B29227C7716100A5CBEF /* HorizontalLineView.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		969886A720A573EE3DAB0B27 /* Frameworks */ = {
@@ -305,6 +372,7 @@
 			name = copyProject;
 			packageProductDependencies = (
 				61288E8927B403A00065F377 /* SnapKit */,
+				9375B28C27C760CC00A5CBEF /* Then */,
 			);
 			productName = copyProject;
 			productReference = E488A1B627A78F7500B35FFA /* copyProject.app */;
@@ -382,6 +450,7 @@
 			mainGroup = E488A1AD27A78F7500B35FFA;
 			packageReferences = (
 				61288E8827B403A00065F377 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				9375B28B27C760CC00A5CBEF /* XCRemoteSwiftPackageReference "Then" */,
 			);
 			productRefGroup = E488A1B727A78F7500B35FFA /* Products */;
 			projectDirPath = "";
@@ -401,6 +470,7 @@
 			files = (
 				E488A1C627A78F7600B35FFA /* LaunchScreen.storyboard in Resources */,
 				52FA97F027C926B5007EF4FE /* ProfileCell.xib in Resources */,
+				9374778127D0C99D00B9FEFD /* Hong.storyboard in Resources */,
 				52FA97F327C926B5007EF4FE /* MenuCell.xib in Resources */,
 				52FA97F727C926B5007EF4FE /* Nam.storyboard in Resources */,
 				E475203927C22E4A005C034D /* GoogleService-Info.plist in Resources */,
@@ -536,17 +606,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9374777F27D0C99D00B9FEFD /* LoginViewController.swift in Sources */,
 				52FA97F527C926B5007EF4FE /* ProfileCell.swift in Sources */,
 				935AF2C527AD3FE50010FD7B /* SearchViewController.swift in Sources */,
 				E475203327B37571005C034D /* (null) in Sources */,
 				E475203727B39620005C034D /* (null) in Sources */,
+				9375B28F27C76ED500A5CBEF /* HotKeywordCollectionCell.swift in Sources */,
+				9375B29927C777B300A5CBEF /* CategoryView.swift in Sources */,
 				E488A1BE27A78F7500B35FFA /* TabBarController.swift in Sources */,
-				935AF2C327AD3F880010FD7B /* KangViewController.swift in Sources */,
 				52FA97F227C926B5007EF4FE /* MenuCell.swift in Sources */,
+				935AF2C327AD3F880010FD7B /* NearMeViewController.swift in Sources */,
+				9341713D27BE4A65004614EF /* NearMeHotKeywordsView.swift in Sources */,
 				E488A1BA27A78F7500B35FFA /* AppDelegate.swift in Sources */,
+				9375B29B27C777DF00A5CBEF /* Category.swift in Sources */,
 				E488A1BC27A78F7500B35FFA /* SceneDelegate.swift in Sources */,
+				9374778027D0C99D00B9FEFD /* SuccessViewController.swift in Sources */,
+				9375B29127C7713400A5CBEF /* RoundedButton.swift in Sources */,
+				9375B29327C7716100A5CBEF /* HorizontalLineView.swift in Sources */,
 				E475203527B38A93005C034D /* (null) in Sources */,
+				9374778227D0C99D00B9FEFD /* EnterEmailViewController.swift in Sources */,
 				52FA97F427C926B5007EF4FE /* TableViewCell.swift in Sources */,
+				9375B29527C7773B00A5CBEF /* CategoriesView.swift in Sources */,
 				61288E8727B402CB0065F377 /* DataModel.swift in Sources */,
 				52FA97F627C926B5007EF4FE /* NamViewController.swift in Sources */,
 			);
@@ -893,6 +973,14 @@
 				kind = branch;
 			};
 		};
+		9375B28B27C760CC00A5CBEF /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -900,6 +988,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 61288E8827B403A00065F377 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		9375B28C27C760CC00A5CBEF /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9375B28B27C760CC00A5CBEF /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
